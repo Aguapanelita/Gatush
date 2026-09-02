@@ -33,7 +33,7 @@ Los gestos se evalúan en este orden de precedencia:
 
 ---
 
-- [carpeta de imágenes](./MewMemes)
+- [carpeta de imágenes](memes)
 
 - [video](./)
 
