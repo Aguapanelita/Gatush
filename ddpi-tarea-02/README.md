@@ -1,6 +1,15 @@
-# Meowmeow Cat Cam Meme Detector (ddpi-tarea-02 - NewMemes)
+# Video Meme Cam Detector
+## tarea-02
 
-Apunta tu cámara web hacia ti, realiza un gesto facial o de manos, y reproduce en tiempo real el meme de gato en video correspondiente. Funciona tanto como aplicación de escritorio (OpenCV + MediaPipe Python) como directamente en el navegador web (MediaPipe WASM + HTML5 Video).
+- **Yurineth Vargas Salazar**
+
+- Asignatura: Dispositivos Periféricos y Plataformas para la Interacción Digital **DIS9087**
+
+Proyecto de reconocimiento de gestos, utilizando Python y MediaPipe. Realizado tomando como referencia este repositorio:
+
+- <https://github.com/catherpiee/meowmeowcatcam>
+
+Apunta tu cámara web hacia ti, realiza un gesto facial o de manos, y reproduce en tiempo real el meme en video correspondiente.
 
 Dos paneles lado a lado:
 - **Cámara** — Flujo de tu webcam con landmarks de manos y rostro dibujados, más un HUD de telemetría y depuración en vivo.
@@ -10,7 +19,7 @@ Dos paneles lado a lado:
 
 Los gestos se evalúan en este orden de precedencia:
 
-| # | Gesto | Descripción / Condición | Archivo de Video (`memes/NewMemes/`) |
+| # | Nombre | Como se activa | Video (`memes/NewMemes/`) |
 |---|---|---|---|
 | **1** | **DefaultCat** | Estado base sin gestos o reposo (fallback) | `DefaultCat.mp4` |
 | **2** | **ClapClap** | Ambas manos abiertas, a la altura del pecho, con las palmas enfrentadas (distancia entre manos < 1.4× escala) | `ClapClap.mp4` |
@@ -22,6 +31,10 @@ Los gestos se evalúan en este orden de precedencia:
 | **8** | **EwwCover** | 1 mano ubicada frente a la región central inferior del rostro, cubriendo o aproximándose a la zona de nariz y boca | `EwwCover.mp4` |
 
 ---
+
+- [carpeta de imágenes](./NewMemes)
+
+- [video](./)
 
 ## Ejecución en Escritorio (Python)
 
