@@ -9,6 +9,7 @@ Proyecto de reconocimiento de gestos, utilizando Python y MediaPipe. Realizado t
 
 - <https://github.com/catherpiee/meowmeowcatcam>
 
+
 Apunta tu cámara web hacia ti, realiza un gesto facial o de manos, y reproduce en tiempo real el meme en video correspondiente.
 
 Dos paneles lado a lado:
