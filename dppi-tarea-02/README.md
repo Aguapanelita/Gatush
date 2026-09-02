@@ -35,7 +35,7 @@ Los gestos se evalúan en este orden de precedencia:
 
 - [carpeta de imágenes](memes)
 
-- [video](video-tarea-02.mp4)
+- [video](video)
 
 ## Ejecución en Escritorio (Python)
 
