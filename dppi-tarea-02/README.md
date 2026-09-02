@@ -33,7 +33,7 @@ Los gestos se evalúan en este orden de precedencia:
 
 ---
 
-- [carpeta de imágenes](./dppi-tarea-02/memes/NewMemes)
+- [carpeta de imágenes](NewMemes)
 
 - [video](./)
 
